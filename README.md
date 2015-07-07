@@ -31,7 +31,7 @@ define service{
 }
 ~~~
 - Reload Nagios configs
-- 
+
 Notes
 =====
 - The device name can be looked up in the vSphere Client on Configuration/Storage Adapters/Details page on the Devices tab in the Name column inside the parenthesis
