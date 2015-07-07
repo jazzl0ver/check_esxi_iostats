@@ -37,9 +37,9 @@ Notes
 - The device name can be looked up in the vSphere Client on Configuration/Storage Adapters/Details page on the Devices tab in the Name column inside the parenthesis
 - Without device name specified, the script returns counters of the 1st local device in the list. This works for Dell servers only (see line 20 in the script).
 - No warning/critical alerts supported yet
-- Check https://communities.vmware.com/docs/DOC-9279 for the counters description
 - Modify FIELDS variable inside the script for adding/removing device counters
-- 
+- Check https://communities.vmware.com/docs/DOC-9279 for the counters description
+ 
 List of available per LUN counters
 ==================================
 ~~~
