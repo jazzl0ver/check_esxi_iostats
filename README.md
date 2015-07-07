@@ -1,2 +1,2 @@
-# check_esxi_iostats
-Pull esxtop counters from ESXi hosts and display them in Nagios format
+# check_esxi_lun_iostats
+Nagios check for pulling a LUN esxtop counters from ESXi host
