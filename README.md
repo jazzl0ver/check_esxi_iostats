@@ -4,7 +4,7 @@ Nagios check for pulling per LUN esxtop counters from VMWare ESXi host
 Requirements
 ============
 - VMware-vSphere-CLI
-- VMWare vCenter
+- VMWare vCenter (optional)
 
 Usage
 =====
@@ -39,6 +39,7 @@ Notes
 - No warning/critical alerts supported yet
 - Modify FIELDS variable inside the script for adding/removing device counters
 - Check https://communities.vmware.com/docs/DOC-9279 for the counters description
+- Running without vCenter requires couple script modifications in lines 20 and 22. Check with esxcli and resxtop tools manuals.
  
 List of available per LUN counters
 ==================================
