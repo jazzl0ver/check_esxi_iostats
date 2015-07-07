@@ -35,5 +35,5 @@ define service{
 Notes
 =====
 - The device name can be looked up in the vSphere Client on Configuration/Storage Adapters/Details page on the Devices tab in the Name column inside the parenthesis
-- Without device name specified, the script returns counters of the 1st device in the list. This works for Dell servers only (see line 20 in the script).
+- Without device name specified, the script returns counters of the 1st local device in the list. This works for Dell servers only (see line 20 in the script).
 - No warning/critical alerts supported yet
