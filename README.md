@@ -1,4 +1,4 @@
-# check_esxi_lun_iostats ESXi_IP_Address [Device_Name]
+# check_esxi_lun_iostats
 Nagios check for pulling per LUN esxtop counters from VMWare ESXi host
 
 Requirements
