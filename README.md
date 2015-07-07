@@ -5,7 +5,7 @@ Requirements
 ============
 - VMware-vSphere-CLI
 - VMWare vCenter
-- 
+
 Usage
 =====
 - Put the script along with the esxtop.conf file in the Nagios plugins folder
